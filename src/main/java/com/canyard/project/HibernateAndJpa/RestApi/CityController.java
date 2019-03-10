@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.canyard.project.HibernateAndJpa.Entities.City;
 import com.canyard.project.HibernateAndJpa.Business.ICityService;
 
-//bunun bir rest controller olabilmesi için restcontroller anatosyonu ile süslenmesi gerekir
+//bunun bir rest controller olabilmesi için restcontroller anatsyonu ile süslenmesi gerekir
 //bu noktada bir diğer durum ise api lerde standart vardır domain isimleri 
 @RestController
 @RequestMapping("/api")//bu clastaki her operasyon api ile başlayacak
