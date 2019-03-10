@@ -11,7 +11,6 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.canyard.project.HibernateAndJpa.Entities.City;
-//JPA bir veri erişim tekniği ile ortaya çıkıyor sonra standart haline geliyor
 @Repository
 public class HibernateCityDal implements ICityDal{
 
